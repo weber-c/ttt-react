@@ -1,5 +1,5 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 24px "Century Gothic", Futura, sans-serif;
   margin: 20px;
   padding-top: 50px;
 }
@@ -77,7 +77,13 @@ ol, ul {
   text-align: center;
   width: 34px;
   color:red;
+  animation: blink 1s linear infinite;
 }
+@keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+  }
 
 .kbd-navigation .square:focus {
   background: #ddd;
@@ -120,3 +126,8 @@ ol, ul {
 .square.right {
   border-left-style: solid;
 } 
+
+.row{
+  display: flex;
+  }
+

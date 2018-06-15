@@ -71,7 +71,9 @@ class App extends Component {
     }
 
     const output =  
+
     <div className="container">
+        <div className="gametitle">React Tic Tac Toe </div>
         <div className="status">{status}</div>
         <div className="row">
             {this.renderSquare(0)}{this.renderSquare(1)}{this.renderSquare(2)}
@@ -83,6 +85,7 @@ class App extends Component {
             {this.renderSquare(6)}{this.renderSquare(7)}{this.renderSquare(8)}
         </div>
      </div>
+
     ;
     return output;
   }
