@@ -1,7 +1,12 @@
 body {
-  font: 24px "Century Gothic", Futura, sans-serif;
+  font: 18px "Century Gothic", Futura, sans-serif;
   margin: 20px;
   padding-top: 50px;
+}
+.gametitle{
+  font-size: 25px;
+  font-family: cursive;
+  color: green;
 }
 
 .content-area {
